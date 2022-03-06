@@ -1,13 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e6e8ed;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #efe8fc 12%, transparent 12.5%, transparent 87%, #efe8fc 87.5%, #efe8fc), linear-gradient(150deg, #efe8fc 12%, transparent 12.5%, transparent 87%, #efe8fc 87.5%, #efe8fc), linear-gradient(30deg, #efe8fc 12%, transparent 12.5%, transparent 87%, #efe8fc 87.5%, #efe8fc), linear-gradient(150deg, #efe8fc 12%, transparent 12.5%, transparent 87%, #efe8fc 87.5%, #efe8fc), linear-gradient(60deg, #efe8fc77 25%, transparent 25.5%, transparent 75%, #efe8fc77 75%, #efe8fc77), linear-gradient(60deg, #efe8fc77 25%, transparent 25.5%, transparent 75%, #efe8fc77 75%, #efe8fc77);
+  background-size: 18px 32px;
+  background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
