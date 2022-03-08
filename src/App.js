@@ -28,12 +28,21 @@ function App() {
           </a>
 
           <a
-            href="https://familymarketing.us"
+            href="https://av-labor.com"
             target="_blank"
             rel="noopener noreferrer" 
           >
             <button className="min-w-full	 font-bold font-mono text-center px-10 py-3 m-2 rounded-full border border-gray-400 cosmo">
-              Coming soon...
+              AV Labor
+            </button>
+          </a>
+          <a
+            href="http://halogenevents.com"
+            target="_blank"
+            rel="noopener noreferrer" 
+          >
+            <button className="min-w-full	 font-bold font-mono text-center px-10 py-3 m-2 rounded-full border border-gray-400 cosmo">
+            Halogen Events
             </button>
           </a>
         </div>
